@@ -1,9 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "type": "object",
-  "required": [
-    "data"
-  ],
+  "required": ["data"],
   "properties": {
     "data": {
       "type": "array",
@@ -42,7 +40,8 @@
             "type": "integer"
           },
           "datetime": {
-            "type": "integer"
+            "type": "string",
+            "format": "date-time"
           }
         }
       }
